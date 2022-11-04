@@ -5,6 +5,8 @@ powershell -Command "&{iwr -useb https://git.io/JJ8R4 | iex}"
 
 color 0B
 
+winget install Python.Python.3.12
+
 winget import %~dp0\winget.txt
 
 
